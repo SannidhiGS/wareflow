@@ -1,0 +1,95 @@
+WAREHOUSE MANAGEMENT SYSTEM - BASIC CONCEPTS
+
+--------------------------------------------------
+
+1. WAREHOUSE
+A warehouse is a place where goods and products are stored before they are distributed to customers, retailers, or other locations.
+
+Real-world example:
+Amazon stores thousands of products in large warehouses before delivering them to customers after an order is placed.
+
+--------------------------------------------------
+
+2. WAREHOUSE MANAGEMENT SYSTEM (WMS)
+A Warehouse Management System is software that helps manage warehouse operations such as inventory tracking, order processing, and stock movement.
+
+Real-world example:
+When you order a product online, the system automatically checks stock availability, locates the item, and processes shipping. This is handled by a WMS.
+
+--------------------------------------------------
+
+3. LEGACY SYSTEM
+A legacy system is an old or outdated system that is still in use but may not be efficient or modern.
+
+Real-world example:
+A warehouse using paper records or Excel sheets to track inventory instead of software is using a legacy system.
+
+--------------------------------------------------
+
+4. ADVANTAGE OF WAREHOUSE OVER LEGACY SYSTEM
+Modern warehouse systems (WMS) are faster, more accurate, and automated compared to legacy systems.
+
+Advantages:
+- Real-time inventory tracking
+- Reduced human errors
+- Faster order processing
+- Better data management
+
+Real-world example:
+Instead of manually checking stock in registers, a WMS shows stock instantly on a computer, saving time and reducing mistakes.
+
+--------------------------------------------------
+
+5. INVENTORY
+Inventory refers to the goods and products stored in a warehouse that are ready for sale or distribution.
+
+Real-world example:
+In a supermarket warehouse, items like rice, oil, and snacks stored in bulk are considered inventory.
+
+--------------------------------------------------
+
+6. YARD
+A yard is the area outside the warehouse where trucks and vehicles wait before loading or unloading goods.
+
+Real-world example:
+Delivery trucks arriving at a warehouse wait in the yard until they are assigned a dock door for unloading.
+
+--------------------------------------------------
+
+7. DOCK DOOR
+A dock door is an entry/exit point in a warehouse where goods are loaded into or unloaded from trucks.
+
+Real-world example:
+A truck carrying goods backs up to a dock door, and workers unload boxes directly into the warehouse.
+
+--------------------------------------------------
+
+8. INBOUND OPERATION
+Inbound operations involve receiving goods into the warehouse from suppliers.
+
+Steps include:
+- Receiving goods
+- Checking quality and quantity
+- Storing items in proper locations
+
+Real-world example:
+A truck delivers new stock to a warehouse, workers scan and store items on shelves. This is inbound.
+
+--------------------------------------------------
+
+9. OUTBOUND OPERATION
+Outbound operations involve sending goods from the warehouse to customers or stores.
+
+Steps include:
+- Picking items from storage
+- Packing orders
+- Shipping to customers
+
+Real-world example:
+When a customer places an online order, workers pick the item, pack it, and ship it. This is outbound.
+
+--------------------------------------------------
+
+PRO TIP:
+- It shows your understanding of real-world warehouse operations
+- Recruiters like projects that include both technical and domain knowledge
