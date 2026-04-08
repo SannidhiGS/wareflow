@@ -1,0 +1,78 @@
+# WMS Inbound Process
+
+## Steps
+
+### 1. Purchase Order Creation
+- A Purchase Order (PO) is created in the system to initiate inbound flow.
+- It includes:
+  - Supplier/vendor details
+  - Item/SKU information
+  - Ordered quantities
+  - Delivery dates
+- This acts as the base document for receiving goods.
+
+### 2. Advance Shipment Notice (ASN)
+- ASN is sent by the vendor before shipment arrives.
+- It provides:
+  - Shipment details
+  - Item quantities
+  - Packaging details (cartons, pallets)
+- Helps warehouse prepare in advance for receiving.
+
+### 3. Appointment Scheduling
+- Warehouse schedules a time slot for incoming shipment.
+- Assigns:
+  - Dock door
+  - Time window
+- Avoids congestion and improves dock efficiency.
+
+### 4. Goods Arrival at Warehouse
+- Truck arrives at the warehouse yard.
+- Gate entry is recorded in the system.
+- Trailer is assigned to a dock door for unloading.
+
+### 5. Receiving Process
+- Goods are unloaded from the truck.
+- Verification is performed:
+  - Match with PO/ASN
+  - Check item quantity
+  - Inspect quality/damage
+- Barcode scanning may be used for accuracy.
+
+### 6. Goods Receipt (GRN)
+- System confirms received goods (Goods Receipt Note).
+- Inventory is updated as “received” in staging/receiving area.
+- Discrepancies (short/damage) are recorded.
+
+### 7. Putaway Task Creation
+- WMS generates tasks to move goods to storage locations.
+- Based on:
+  - Putaway rules
+  - Storage type (rack, bin, bulk)
+  - Space availability
+- Tasks are assigned to warehouse operators.
+
+### 8. Putaway Execution
+- Operator moves goods to assigned locations.
+- Location and item are scanned for confirmation.
+- Ensures correct placement in warehouse.
+
+### 9. Inventory Update
+- Stock is updated at:
+  - Location/bin level
+  - Warehouse level
+- Inventory becomes available for picking/shipping.
+
+### 10. Exception Handling
+- Handle issues such as:
+  - Damaged goods
+  - Short/excess quantity
+  - Wrong items
+- Actions include:
+  - Return to vendor
+  - Move to quarantine area
+  - Adjustment entries in system
+
+## Description
+
+Inbound process handles receiving goods from vendors into the warehouse, verifying them, and storing them in appropriate locations. It ensures accurate inventory tracking, efficient storage, and readiness for downstream operations like picking and shipping.
