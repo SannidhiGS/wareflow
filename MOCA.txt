@@ -1,0 +1,81 @@
+📦 MOCA in WMS – Complete Guide
+
+1. What is MOCA?
+MOCA (Modular Open Component Architecture) is a scripting and development framework used in Warehouse Management Systems (WMS), especially in Blue Yonder (formerly JDA) WMS.
+
+It is used to customize, extend, and control warehouse operations without modifying the core system code.
+
+In simple terms:
+MOCA is the backend logic layer that helps WMS perform tasks like receiving goods, picking items, shipping orders, and managing inventory.
+
+--------------------------------------------------
+
+2. Why MOCA is Used?
+- Customize warehouse workflows
+- Automate business processes
+- Integrate WMS with other systems (ERP, APIs, etc.)
+- Execute database operations
+- Add new features without changing core application
+
+--------------------------------------------------
+
+3. Structure of MOCA
+
+Components:
+
+- Commands: Perform specific actions
+- Command Sets: Group of related commands
+- Arguments: Input parameters passed to commands
+- Result Sets: Output data after execution
+- MOCA Scripts: Sequence of commands forming workflows
+
+--------------------------------------------------
+
+4. Basic Syntax Example
+
+list warehouses
+where wh_id = 'WH01'
+
+--------------------------------------------------
+
+5. Real World Use Cases
+
+Inbound Operation (Receiving Goods):
+receive inventory
+where item = 'ITEM001'
+and qty = 100
+
+Outbound Operation (Shipping):
+ship order
+where order_no = 'ORD123'
+
+--------------------------------------------------
+
+6. Features of MOCA
+- Modular design
+- High performance
+- Easy integration with external systems
+- Customizable without affecting core WMS
+- Supports database queries and business logic
+
+--------------------------------------------------
+
+7. Advantages of MOCA
+- No need to change core code
+- Faster development
+- Flexible system behavior
+- Enables automation
+
+--------------------------------------------------
+
+8. Where MOCA is Used in WMS
+- Inbound operations (receiving, putaway)
+- Outbound operations (picking, packing, shipping)
+- Inventory management
+- Yard management
+- Reporting
+
+--------------------------------------------------
+
+Pro Tip:
+Always test MOCA commands in a safe environment and optimize queries for better performance.
